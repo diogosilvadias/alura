@@ -30,21 +30,11 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
     if (pesoValido && alturaValida) {
-        var imc = peso / (altura * altura);
-        tdImc.textContent = imc.toFixed(2);
+        tdImc.textContent = calculaImc(peso, altura);
     }
 }
 
-var btAdicionar = document.querySelector("#adicionar-paciente");
-btAdicionar.addEventListener("click", function (event) {
-    event.preventDefault();
-
-    var form = document.querySelector("#form-adiciona");
-
-    var nome = form.nome.value;
-    var peso = form.peso.value;
-    var altura = form.altura.value;
-    var gordura = form.gordura.value;
-
-
-});
+function calculaImc(peso, altura) {
+    var imc = peso / (altura * altura);
+    return imc.toFixed(2);
+}
