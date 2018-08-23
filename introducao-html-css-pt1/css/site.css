@@ -1,0 +1,136 @@
+main h1 {
+    font-size: 60px;
+    background-color: rgb(120, 30, 60);
+    color: #FAFFFA;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+
+main div {
+    width: 720px;
+    margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+}
+
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main a {
+    color: #851944;
+}
+
+aside {
+    text-align: center;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github {
+    background-image: url('../img/github.png');
+}
+
+.twitter {
+    background-image: url('../img/twitter.png');
+}
+
+.linkedin {
+    background-image: url('../img/linkedin.png');
+}
+
+ul {
+    color: pink;
+}
+
+ul li a {
+    color: inherit;
+}
+
+aside, img {
+    float: right;
+    box-sizing: border-box;
+    border-left: 8px solid black;
+    border-bottom: 8px solid black;
+}
+
+aside {
+    width: 15%;
+    clear: right;
+    box-sizing: border-box;
+    border-top: 8px solid black;
+    position: relative;
+    top: 300px;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
